@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    
+
+}
+
+.pokecard {
+    background-color: beige;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokecard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pokecard img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border: 3px solid #4a90e2;
+    border-radius: 50%;
+    background-color: #e0f7fa;
+}
+
+.pokemon-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.app-name {
+    color: #4a90e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
